@@ -7,7 +7,7 @@ This project helps to quickly setup a clean development environment. I personal 
 1. Clone the repo
 2. Go in the folder `scenarios`
 3. choose one scenario and go in its folder
-4. open in that folder a powershell
+4. open that folder in powershell
 5. start the script that starts with `Start-Sandbox***`
    - for example for the PowerShell scenario do this: `PS scenarios\powershell> .\Start-SandboxPowerShell.ps1`
 6. This will take a while for the first startup because it must download all dependencies
