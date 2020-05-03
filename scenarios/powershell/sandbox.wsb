@@ -1,0 +1,21 @@
+<Configuration>
+<VGpu>Enabled</VGpu>
+<Networking>Enabled</Networking>
+<MappedFolders>
+   <MappedFolder>
+     <HostFolder>$(currentPath)\downloads</HostFolder>     
+     <ReadOnly>true</ReadOnly>
+   </MappedFolder>
+   <MappedFolder>
+     <HostFolder>$(currentPath)\startup</HostFolder>     
+     <ReadOnly>true</ReadOnly>
+   </MappedFolder>
+   <MappedFolder>
+     <HostFolder>$(currentPath)\dev</HostFolder>     
+     <ReadOnly>false</ReadOnly>
+   </MappedFolder>
+</MappedFolders>
+<LogonCommand>
+   <Command>C:\users\WDAGUtilityAccount\Desktop\startup\startup.cmd</Command>
+</LogonCommand>
+</Configuration>
